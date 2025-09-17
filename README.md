@@ -1,70 +1,48 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+SkillYatra - An EdTech Website 🚀
 
-## Available Scripts
+SkillYatra is a comprehensive, feature-rich EdTech platform that enables users to create, consume, and rate educational content. The platform is built using the MERN stack, which includes ReactJS, NodeJS, MongoDB, and ExpressJS. It's designed to provide a seamless and interactive learning experience, making education more accessible and engaging. Instructors can showcase their expertise and connect with learners globally, while students can learn from a wide array of content.
 
-In the project directory, you can run:
+Table of Contents
 
-### `npm start`
+Introduction
+Key Features
+System Architecture
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1)Introduction
 
-### `npm test`
+SkillYatra is a fully functional EdTech platform tailored for modern online education. It combines a modular frontend architecture with robust backend integrations, enabling scalable and memorable learning applications. The project empowers developers to build feature-rich educational platforms with ease.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2)Key Features
 
-### `npm run build`
+Customizable UI Components: Reusable React components like Navbar, Footer, and Course Cards.
+Secure Authentication & Profile Management: Role-based access, OTP verification, and password management for enhanced security.
+Payment & Enrollment Workflows: Smooth course purchase, enrollment, and progress tracking for a seamless user journey.
+API-Driven Backend: Well-structured routes and models for courses, categories, reviews, and user data.
+State Management & Hooks: Efficient global state handling with Redux slices and custom hooks for enhanced UI interactions.
+Scalable Architecture: Designed for growth, with clear separation of concerns and extensibility for future features.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3)System Architecture
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The SkillYatra EdTech platform consists of three main components: the front-end, the back-end, and the database. The platform follows a client-server architecture, with the front-end serving as the client and the back-end and database serving as the server.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Front-end
 
-### `npm run eject`
+The front end of SkillYatra has all the necessary pages that an EdTech platform should have. Some of these pages are:
+For Students: Homepage, Course List, Wishlist, Cart Checkout, Course Content, User Details, and User Edit Details.
+For Instructors: Dashboard, Insights, Course Management Pages, and View and Edit Profile Details.
+For Admin (Future Scope): Dashboard, Insights, Instructor Management, and other relevant pages.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Back-end
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The back end of SkillYatra provides a range of features and functionalities, including:
+User authentication and authorization: Students and instructors can sign up and log in. The platform also supports OTP verification and forgot password functionality.
+Course management: Instructors can create, read, update, and delete courses. Students can view and rate courses.
+Payment Integration: Students can purchase and enroll in courses using Razorpay for payment handling.
+Cloud-based media management: SkillYatra uses Cloudinary, a cloud-based media management service, to store and manage all media content.
+Markdown formatting: Course content in document format is stored in Markdown format, allowing for easier display on the front end.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+SKILLYATRA_URL: https://skillyatra-an-edtech-website.vercel.app
