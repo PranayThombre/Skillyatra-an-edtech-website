@@ -42,7 +42,8 @@ app.use(cookieParser());
 app.use(
   cors({
     //frontend url
-    origin:"hhttps://skillyatra-an-edtech-website.vercel.app/ttp://localhost:3000",
+    origin: ["http://localhost:3000",
+    "https://skillyatra-an-edtech-website-1.onrender.com"],
     credentials:true,
     allowedHeaders: ["Content-Type", "Authorization"],
   })
