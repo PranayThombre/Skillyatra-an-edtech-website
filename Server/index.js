@@ -43,7 +43,7 @@ app.use(
   cors({
     //frontend url
     origin: ["http://localhost:3000",
-    "https://skillyatra-an-edtech-website-1.onrender.com"],
+    "https://skillyatra-an-edtech-website.vercel.app"],
     credentials:true,
     allowedHeaders: ["Content-Type", "Authorization"],
   })
