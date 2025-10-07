@@ -50,6 +50,8 @@ Markdown Support: Course content is stored in Markdown for easy formatting and d
 
 Scalable Architecture: Clear separation of concerns with extensibility for future features.
 
+---
+
 System Architecture 🏗️
 
 The platform follows a client-server architecture with three main components:
@@ -82,6 +84,8 @@ Database
 
 MongoDB is used as a NoSQL database to store user data, courses, reviews, and payment records.
 
+---
+
 Tech Stack 🛠️
 
 Frontend: ReactJS, Redux, Tailwind CSS
@@ -97,6 +101,8 @@ Payment Gateway: Razorpay
 Media Storage: Cloudinary
 
 Deployment: Vercel
+
+---
 
 Installation & Setup ⚡
 
@@ -125,9 +131,8 @@ Access the app:
 Open http://localhost:3000
  in your browser.
 
-Screenshots 🖼️
+---
 
-(Add screenshots of homepage, course page, dashboard, etc.)
 
 Future Enhancements 🚀
 
@@ -138,6 +143,8 @@ AI-powered course recommendations
 Multi-language support
 
 Admin panel for enhanced analytics and management
+
+---
 
 Contributing 🤝
 
