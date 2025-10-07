@@ -4,6 +4,7 @@ SkillYatra is a feature-rich, modern EdTech platform that allows users to create
 
 🌐 Live Demo: SkillYatra Website
 
+---
 
 Table of Contents 📖
 
@@ -24,6 +25,8 @@ Future Enhancements
 Contributing
 
 License
+
+---
 
 Introduction
 
